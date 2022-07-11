@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/vazir.eot') format('eot'),
+         url('../fonts/vazir.woff') format('woff2'), 
+         url('../fonts/vazir.woff2') format('woff'), 
+         url('../fonts/vazir.ttf')  format('truetype')
+} 
+   
+  body{
+      font-family: 'Vazir';
+      direction: rtl;
+      background-color: rgba(196, 164, 125, 0.8);
+      margin: 0px;
+      padding: 0px;
+  }
+  ul,li{
+      margin: 0;
+      padding: 0;
+  }
+
+  .container{
+      width: 1300px;
+      height: 100%;
+      margin: auto;
+  }
+
+  .overlay{
+    position: absolute;
+    top:0 ;
+    right:0 ;
+    bottom: 0;
+    left:0 ;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.hamburger-icon{
+    width: 20%;
+    display: none;
+    cursor: pointer;
+}
+.hamburger-icon img{
+    width: 50px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+input{
+    font-family: 'Vazir';
+}
+
+#responsive-navigation{
+    display: none;
+}
+
+.back-conainer{
+    position: absolute;
+    top:0 ;
+    right:0 ;
+    bottom: 0;
+    left:0 ;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+  /* header */
+
+  header{
+      background-image: url('../images/bakcground-header.jpg');
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      position: relative;
+  }
+
+  header nav{
+      background-color: rgba(0, 0, 0, .7);
+      width: 100%;
+      height: 80px;
+  }
+
+  header nav ul{
+      width:  50%;
+      height: 100%;
+      float: right;
+  }
+  header nav ul li{
+      display: inline-block;
+      margin: 0 10px 0 10px;
+      line-height: 5;
+  }
+  header nav ul li a{
+        text-decoration: none;
+        color: white;
+}
+
+  header .header-desc{
+      color: white;
+      position: absolute;
+      top: 35%;
+      right: 0;
+      left: 0;
+      text-align: center;
+  }
+  header .header-desc h1{
+      font-size: 45px;
+  }
+  header .header-desc p{
+      font-size: 25px;
+  }
+
+  /* our story */
+
+  #our-story{
+      width: 100%;
+      height: 450px;
+      padding: 100px 0;
+  }
+
+  #our-story .story-desc{
+      width: 50%;
+      float: right;
+      text-align: center;
+      margin-bottom: 50px;
+  }
+  #our-story .story-desc h1{
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 120px;
+  }
+  #our-story .story-desc p{
+        font-size: 18px;
+        line-height: 37px;
+        margin-top: 37px;
+        width: 550px;
+        margin: auto;
+  }
+
+  #our-story .story-img{
+      width: 50%;
+      float: right;
+  }
+  #our-story .story-img img{
+      width: 100%;
+      border-radius: 10px;
+      border: solid 3px rgb(73, 18, 18);
+  }
+
+  /* sweet */
+
+#sweet{
+    width: 100%;
+    height: 300px;
+    padding: 100px 0;
+    background-image: url(../images/backtwo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.sweet-desc{
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+} 
+.sweet-desc h1{
+    font-size: 45px;
+}
+.sweet-desc p{
+    font-size: 20px;
+    width: 650px;
+    margin: auto;
+}
+
+/* menu */
+
+#menu{
+    width: 100%;
+    height: 500px;
+    padding: 100px 0 ;
+}
+
+.menu-desc{
+    width: 50%;
+
+    float: right;
+    text-align: center;
+}
+.menu-desc h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+.menu-desc p{
+    line-height: 2;
+    font-size: 18px;
+    width: 550px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.menu-desc a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(16, 56, 41) ;
+    border-bottom: 1px solid rgb(173, 28, 3);
+}
+
+.menu-img{
+    width: 50%;
+    float: right;
+}
+.menu-img ul{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.menu-img ul li{
+    width: 50%;
+    float: right;
+    text-align: left;
+    list-style: none;
+    padding: 3px 0;
+}
+.menu-img img{
+    width: 95%;
+    height: 250px;
+    border-radius: 10px;
+    border: solid 3px rgb(73, 18, 18);
+}
+
+/* hot */
+
+#hot{
+    background-image: url(../images/hot.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    position: relative;
+    background-attachment: fixed;
+    margin-top: 40px;
+}
+
+#hot .hot-title{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+.hot-title h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+.hot-title p{
+    font-size: 27px;
+}
+
+/* delight */
+
+#delight{
+    width: 100%;
+    padding: 100px 0;
+    overflow: auto;
+}
+
+.delight{
+    width: 100%;
+}
+
+.delight-desc{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.delight-desc h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.delight-desc p{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+}
+
+.delight-img{
+    width: 50%;
+    float: right;
+}
+.delight-img img{
+    width: 250px;
+    height: 400px;
+    float: left;
+    border-radius: 10px;
+    border: solid 3px rgb(73, 18, 18);
+}
+#delight .delight .delight-img img.left-img{
+    margin-right: 20px;
+}
+
+/* footer */
+
+#footer{
+    width: 100%;
+    padding: 100px 0;
+    overflow: auto;
+    background-color: rgb(36, 36, 36);
+}
+#footer .footer{
+    width: 100%;
+
+}
+.footer .about-us{
+    text-align: center;
+    color: white;
+}
+.footer .about-us h2{
+    margin-bottom: 30px;
+}
+.footer .about-us p{
+    width: 600px;
+    margin: auto;
+    line-height: 30px;
+}
+.footer .contact-us{
+    color: white;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.footer .contact-us .news-letter{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+.footer .contact-us .news-letter input{
+    padding: 7px 20px;
+    margin-top: 10px;
+}
+.footer .contact-us .socials{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+.footer .contact-us .socials ul{
+    list-style: none;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.footer .contact-us .socials ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.footer .contact-us .socials ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .contact-us .socials ul li a svg{
+    font-size: 30px;
+}
